@@ -1,13 +1,18 @@
-# try out the Python queue functions
+# try out the Python stack functions
+from collections import deque
 
+# TODO: create a new empty stack
+queue = deque()
 
-# TODO: create a new empty deque object that will function as a queue
+# TODO: push items onto the stack
+queue.append(1)
+queue.append(2)
+queue.append(3)
+queue.append(4)
 
+# TODO: print the stack contents
+print(queue)
 
-# TODO: add some items to the queue
-
-
-# TODO: print the queue contents
-
-
-# TODO: pop an item off the front of the queue
+# TODO: pop an item off the stack
+x = queue.popleft()
+print(queue)
